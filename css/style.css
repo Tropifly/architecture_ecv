@@ -1,0 +1,59 @@
+:root {
+    --test-color: #ffc0cb;
+    --test-color2: #ff0000;
+}
+
+
+/* reset, do not touch */
+h1,h2,h3,h4,h5,h6,body,p {
+    margin: 0;
+}
+
+/* page settings */
+body {
+    /* size */
+    width: 100vw;
+    height: 100vh;
+}
+
+/* header settings */
+header {
+    /* size */
+    width: 100%;
+    height: 80px;
+    /* background */
+    background-color: var(--test-color);
+    /* flex box */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    /* size */
+    width: auto;
+    height: 100%;
+}
+
+#burger {
+   /* size */
+   width: 2.5%;
+   height: 30%;
+   /* background */
+   background-color: var(--test-color2); 
+   /* flex box */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   /* marge */
+}
+
+#burger span {
+    /* size */
+    width: 100%;
+    height: 3px;
+    /* background */
+    background-color: black;
+}
